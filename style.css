@@ -1,0 +1,42 @@
+body{
+    margin:3% 3% 10% 3%;
+    background-color: coral;
+    background: linear-gradient(top,rgb(104,196,205), rgb(203,227,227));
+    background: -webkit-linear-gradient(top,rgb(104,196,205), rgb(203,227,227));
+    background: -ms-linear-gradiente(top,rgb(50,50,250), rgb(124,210,212));;
+    background: -o-linear-gradient(top,rgb(50,50,250), rgb(124,210,212));
+   
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#foto{
+    display: flex;
+    float: right;
+    margin-right: 50px;
+}
+img{
+    display:flex;
+    align-items: center;
+    width: 300px;
+    height: 280px;
+    border-radius:50%;
+    border:3px solid rgb(84, 163, 177);
+    padding:5px;
+}
+#whats{
+    width:20px;
+    height: 20px;
+    padding: 0%;
+}
+#dados{
+    margin-left: 25px;
+}
+li{
+    height: 40px;
+}
+.fonte{
+    font-size:18px ;
+}
